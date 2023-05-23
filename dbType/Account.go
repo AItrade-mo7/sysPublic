@@ -16,8 +16,8 @@ type UserTable struct {
 	UpdateTime     int64    `bson:"UpdateTime"`     // 更新时间
 	EntrapmentCode string   `bson:"EntrapmentCode"` // 防钓鱼码
 	Password       string   `bson:"Password"`       // 用户密码
-}  
- 
+}
+
 /*
 用来存储 登录信息
 db: Account

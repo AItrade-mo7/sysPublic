@@ -6,7 +6,7 @@ db: AIServe
 collection : CoinAI
 */
 
-type AppEnvType struct {
+type CoinAIType struct {
 	SysName      string `bson:"SysName"`      // 系统的名字  ， 自动生成项
 	SysType      string `bson:"SysType"`      // 系统的类型
 	Describe     string `bson:"Describe"`     // 描述
@@ -21,4 +21,3 @@ type AppEnvType struct {
 	UpdateTime   int64  `bson:"UpdateTime"`   // 更新时间
 	ApiKeyList   any    `bson:"ApiKeyList"`   // ApiKey 列表
 }
-  

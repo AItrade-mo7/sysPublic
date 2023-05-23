@@ -9,4 +9,3 @@ type TokenTable struct {
 	Token      string `bson:"Token"`      // 当前登录的Token
 	CreateTime int64  `bson:"CreateTime"` // 创建时间
 }
-  
