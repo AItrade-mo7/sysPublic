@@ -5,15 +5,15 @@ import (
 	"strings"
 
 	"UserCenter.net/server/global"
-	"UserCenter.net/server/utils/taskPush"
 	"UserCenter.net/sysPublic/dbType"
+	"UserCenter.net/sysPublic/taskPush"
 	"github.com/EasyGolang/goTools/mEncrypt"
 	"github.com/EasyGolang/goTools/mTime"
 )
 
 type RegisterOpt struct {
 	Email          string
-	EntrapmentCode string 
+	EntrapmentCode string
 }
 
 func (dbObj *AccountType) Register(opt RegisterOpt) (resErr error) {
